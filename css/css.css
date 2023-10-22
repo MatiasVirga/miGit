@@ -1,0 +1,438 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 154, 209);
+    font-family: 'calibri';
+    overflow: none;
+
+}
+
+
+/*Empieza el HEADER*/
+
+.icono{
+    float:left;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+header{
+    background-color: rgb(230, 154, 209);
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+header .dropdown-menu {
+    position: absolute;
+}
+nav :hover{
+    text-decoration: underline;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+.link__nav{
+    float: right;
+}
+
+.link__ul__li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 7px 0;
+    float: left;
+}
+
+.link__ul--texto{
+    text-decoration: none;
+    color: rgb(121, 78, 41);
+    font-weight: bold;
+}
+
+.buscador{
+    background-color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 36vw;
+    margin-left: 15vh;
+    margin-top: 20px;
+    border-radius: 2vw;
+    padding-left: 15px;
+}
+
+/*Termina el HEADER*/
+
+/* ACA EMPIEZA EL MAIN*/ 
+
+/* CARROUSEL */
+.carrousel{
+    height: 60vh;
+    background-color: rgb(81, 160, 35);
+    margin-top: 10%;
+}
+
+/*SECCION DE 2 CAJAS*/
+/*CONTENEDOR*/
+.fondo{
+    background-color:rgb(230, 154, 209);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box__contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px 70px;
+
+}
+/*PRIMERA CAJA*/
+.box{
+    width: 42vw;
+    height: 70vh;
+    /*
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    */
+
+    background-image: url(../img/fondo_chocolate.jpeg);
+    background-size: cover;
+    
+}
+
+.box__texto{
+    padding: 20px;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight:bold;
+}
+
+.boton{
+    border: rgb(246, 0, 213) 8px outset;
+    border-radius: 1800px;
+    background-color: #ffffff;
+
+    font-size: 25px;
+    color: black;
+
+    padding: 13px;
+   
+    list-style: none;
+    text-decoration: none;
+}
+
+.boton:hover{
+    border: rgb(232, 0, 0) 8px outset;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+
+/* segunda CAJA*/
+.contenedor__foto{
+    width: 42vw;
+    height: 70vh;
+
+    background-image: url(../img/Chocolatefinal2.jpeg);
+    background-size: cover;
+
+    /*
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    */
+
+    display: flex;
+    flex-direction: column;
+}
+.propiedades__box{  
+    height: 120px;
+    width: 300px;
+
+    /*
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    */
+
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.propiedades__foto{
+    width: max-content;
+    height: max-content;
+
+    /*
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    */
+    top: 25px;
+    left: 10px;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.propiedades__texto{
+    width: max-content;
+    height: max-content;
+
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 20px;
+    font-weight:bolder;
+
+    position: relative;
+    top: -10px;
+    left: 70px;
+    overflow:auto;
+    display: flex;
+    flex-direction: row;
+    /*
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    */
+}
+
+/*PRODUCTO CON SUBPRODUCTOS*/
+
+/*Contenedor UNO*/
+.container {
+    /*
+    background-color: blue;
+    */
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+
+    list-style: none;
+}
+/*Contenedor DOS*/
+.container--2 {
+    /*
+    background-color: blue;
+    */
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    list-style: none;
+    
+}
+
+/*CAJAS*/
+.container__box {
+    width: 300px;
+    height: 180px;
+    /*
+    background-color: rgb(190, 97, 185);
+    border: white 8px dotted;
+    */
+    margin: 20px;
+    margin-left: 40px;
+
+    position: relative;
+
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.producto{
+   width: max-content;
+   height: max-content;
+
+   text-shadow: 2px 8px 5px rgb(160, 28, 141);
+
+   font-family: 'Roboto Slab', serif;
+}
+
+
+.container__box--imagen{
+    left: 110px;
+    top: 30px;
+
+    position: relative;
+    display: flex;
+}
+
+h3{
+    color: black;
+}
+.container__box--texto1{
+    position: relative;
+    
+    font-size: 24px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+
+    left: 70px;
+    top: 55px; 
+} 
+.container__box--texto1 :hover{
+    font-size: 30px;
+}
+
+.container__box--texto2-3-4{
+    position: relative;
+
+    list-style: none;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+
+    left: 20px;
+    top: 55px;
+}
+.container__box--texto2-3-4 :hover{
+    font-size: 30px;
+    
+}
+.container__box--texto5{
+    position: relative;
+
+    list-style: none;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+
+    left: 80px;
+    top: 55px;
+   
+}
+.container__box--texto5 :hover{
+    font-size: 30px;
+}
+
+/*ACA EMPIEZA EL FOOTER*/
+footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: left;
+    }
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    width: 100%;
+}
+
+.link__footer{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.contacto{
+    width: max-content;
+    height: max-content;
+    /*
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    */
+}
+
+.contacto--titulo{
+    color: rgb(163, 49, 224);
+}
+
+.redes{
+    width: max-content;
+    height: max-content;
+    /*
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    */
+}
+.redes--titulo{
+    font-size: 28px;
+    color: rgb(163, 49, 224);
+}
+.copy{
+    position: relative;
+    text-align: center;
+}
+
+
+
+footer ul li {
+        display: inline;
+    }
+
+
+footer a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 119vh){
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    
+        body{
+            background-color: red;
+            font-family: 'calibri';
+            overflow: none;
+        }
+
+        .buscador{
+            height: 4vh;
+            width: 60vw;
+            margin-left: 7vh;
+        }
+        
+        .carrousel{
+            margin-top: 120px;
+        }
+
+        main{
+            background-color: none;
+        }
+
+        .box__contenedor{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .box{
+            width: 40vw;
+            height: 50vh;
+        }
+
+        .contenedor__foto{
+            width: 40vw;
+            height: 50vh;
+        }
+
+        footer{
+            background-color: rgba(171, 97, 19, 0.826);
+        }
+    }

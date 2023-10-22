@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 154, 209);
+    font-family: 'calibri';
+    overflow: none;
+
+}
+
+/*Empieza el HEADER*/
+
+.icono{
+    float:left;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+header{
+    background-color: rgb(230, 154, 209);
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+header .dropdown-menu {
+    position: absolute;
+}
+nav :hover{
+    text-decoration: underline;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+.link__nav{
+    float: right;
+}
+
+.link__ul__li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 7px 0;
+    float: left;
+}
+
+.link__ul--texto{
+    text-decoration: none;
+    color: rgb(121, 78, 41);
+    font-weight: bold;
+}
+
+.buscador{
+    background-color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 36vw;
+    margin-left: 15vh;
+    margin-top: 20px;
+    border-radius: 2vw;
+    padding-left: 15px;
+}
+
+/*Termina el HEADER*/
+/*PRODUCTO CON SUBPRODUCTOS*/
+
+/*Contenedor UNO*/
+.container {
+    /*
+    background-color: blue;
+    */
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+
+    list-style: none;
+}
+/*Contenedor DOS*/
+.container--2 {
+    /*
+    background-color: blue;
+    */
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    list-style: none;
+    
+}
+
+/*CAJAS*/
+.container__box {
+    width: 300px;
+    height: 180px;
+   
+    background-color: rgb(190, 97, 185);
+    border: white 2px solid;
+   
+    margin: 20px;
+    margin-left: 40px;
+
+    position: relative;
+
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.producto{
+    margin-top: 10%;
+   width: max-content;
+   height: max-content;
+
+   text-shadow: 2px 8px 5px rgb(160, 28, 141);
+
+   font-family: 'Roboto Slab', serif;
+}
+
+
+.container__box--imagen{
+    left: 110px;
+    top: 30px;
+
+    position: relative;
+    display: flex;
+}
+
+h3{
+    color: black;
+}
+.container__box--texto1{
+    position: relative;
+    
+    font-size: 24px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+
+    left: 70px;
+    top: 55px; 
+} 
+.container__box--texto1 :hover{
+    font-size: 30px;
+}
+
+.container__box--texto2-3-4{
+    position: relative;
+
+    list-style: none;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+
+    left: 20px;
+    top: 55px;
+}
+.container__box--texto2-3-4 :hover{
+    font-size: 30px;
+    
+}
+.container__box--texto5{
+    position: relative;
+
+    list-style: none;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+
+    left: 80px;
+    top: 55px;
+   
+}
+.container__box--texto5 :hover{
+    font-size: 30px;
+}
+/*ACA EMPIEZA EL FOOTER*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer{
+display: flex;
+justify-content: space-evenly;
+margin-left: 40px;
+width: 100%;
+}
+
+.link__footer{
+font-size: 30px;
+color: #fff;
+text-decoration: none;
+list-style-type: none;
+padding: 0;
+margin-right: 10px;
+}
+
+.contacto{
+width: max-content;
+height: max-content;
+/*
+border: 1px;
+border-style: double;
+border-color: red;
+*/
+}
+
+.contacto--titulo{
+color: rgb(163, 49, 224);
+}
+
+.redes{
+width: max-content;
+height: max-content;
+/*
+border: 1px;
+border-style: double;
+border-color: red;
+*/
+}
+.redes--titulo{
+font-size: 28px;
+color: rgb(163, 49, 224);
+}
+.copy{
+position: relative;
+text-align: center;
+}
+
+
+
+footer ul li {
+    display: inline;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+

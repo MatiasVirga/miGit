@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 154, 209);
+    font-family: 'calibri';
+    overflow: none;
+
+}
+/*Empieza el HEADER*/
+
+.icono{
+    float:left;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+header{
+    background-color: rgb(230, 154, 209);
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+header .dropdown-menu {
+    position: absolute;
+}
+nav :hover{
+    text-decoration: underline;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+.link__nav{
+    float: right;
+}
+
+.link__ul__li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 7px 0;
+    float: left;
+}
+
+.link__ul--texto{
+    text-decoration: none;
+    color: rgb(121, 78, 41);
+    font-weight: bold;
+}
+
+.buscador{
+    background-color: rgb(255, 255, 255);
+    height: 4vh;
+    width: 36vw;
+    margin-left: 15vh;
+    margin-top: 20px;
+    border-radius: 2vw;
+    padding-left: 15px;
+}
+
+/*Termina el HEADER*/
+/*empieza el body*/
+
+/*nosotros*/
+
+.fondo{
+    background-color:rgb(230, 154, 209);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box__contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 10% 20px 20px 20px; /*arriba, derecha, abajo, izquierda*/
+
+    border: 1px;
+    border-style: double;
+    border-color: red;
+
+
+}
+.box{
+    width: 50vw;
+    height: 70vh;
+  
+    border: 1px;
+    border-style: double;
+    border-color: red;
+  
+    
+}
+
+.box__texto{
+    padding: 20px;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight:bold;
+}
+
+.contenedor__foto{
+    width: 50vw;
+    height: 70vh;
+
+    background-image: url(../img/Chocolatefinal2.jpeg);
+    background-size:cover;
+
+    
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+.propiedades__box{  
+    height: 120px;
+    width: 300px;
+
+    
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    
+
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.propiedades__foto{
+    width: max-content;
+    height: max-content;
+
+    
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    
+    top: 25px;
+    left: 10px;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.propiedades__texto{
+    width: max-content;
+    height: max-content;
+
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 20px;
+    font-weight:bolder;
+
+    position: relative;
+    top: -10px;
+    left: 70px;
+    overflow:auto;
+    display: flex;
+    flex-direction: row;
+   
+    border: 1px;
+    border-style: double;
+    border-color: red;
+    
+}
+
+
+/*ACA EMPIEZA EL FOOTER*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer{
+display: flex;
+justify-content: space-evenly;
+margin-left: 40px;
+width: 100%;
+}
+
+.link__footer{
+font-size: 30px;
+color: #fff;
+text-decoration: none;
+list-style-type: none;
+padding: 0;
+margin-right: 10px;
+}
+
+.contacto{
+width: max-content;
+height: max-content;
+/*
+border: 1px;
+border-style: double;
+border-color: red;
+*/
+}
+
+.contacto--titulo{
+color: rgb(163, 49, 224);
+}
+
+.redes{
+width: max-content;
+height: max-content;
+/*
+border: 1px;
+border-style: double;
+border-color: red;
+*/
+}
+.redes--titulo{
+font-size: 28px;
+color: rgb(163, 49, 224);
+}
+.copy{
+position: relative;
+text-align: center;
+}
+
+
+
+footer ul li {
+    display: inline;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
